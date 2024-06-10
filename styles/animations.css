@@ -12,3 +12,39 @@
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
+
+@keyframes disabled-button {
+  from {
+    transform: translateX(-24px);
+  }
+  to {
+    transform: translateX(-20px);
+  }
+}
+
+@keyframes focus-button {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes shadow-appearence {
+  from {
+    box-shadow: 0 0 transparent;
+  }
+  to {
+    box-shadow: 2px 2px 0 var(--accent-color);
+  }
+}
+
+@keyframes button-pseudoelement {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
