@@ -8,13 +8,13 @@
   --title-weight: 785;
   --content-weight: 465;
   --background-color: #000;
-  --accent-color: #00CC14;
+  --accent-color: #00cc14;
   --gradient-horizontal: #000;
   --gradient-vertical1: #007f0c;
   --gradient-vertical2: #004306;
   --shadow-color: #000;
-  --like-color: #00CC14;
-  --contour: #00CC14;
+  --like-color: #00cc14;
+  --contour: #00cc14;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,13 +22,13 @@
     --title-weight: 785;
     --content-weight: 465;
     --background-color: #000;
-    --accent-color: #00CC14;
+    --accent-color: #00cc14;
     --gradient-horizontal: #000;
     --gradient-vertical1: #007f0c;
     --gradient-vertical2: #004306;
     --shadow-color: #000;
-    --like-color: #00CC14;
-    --contour: #00CC14;
+    --like-color: #00cc14;
+    --contour: #00cc14;
   }
 }
 
@@ -46,7 +46,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  :root { 
+  :root {
     --title-weight: 700;
     --content-weight: 400;
     --background-color: #fff;
