@@ -66,6 +66,10 @@
   pointer-events: none;
 }
 
+.header__container-link:focus {
+  outline: none;
+}
+
 .hedaer__container-title {
   text-transform: uppercase;
   text-align: center;
@@ -430,6 +434,11 @@
 }
 
 @media (width <= 376px) {
+  .header,
+  .article {
+    inline-size: 100%;
+  }
+
   .save-button {
     inline-size: clamp(19.125rem, 18.4868rem + 2.723vw, 20.9375rem);
     flex-wrap: wrap;
