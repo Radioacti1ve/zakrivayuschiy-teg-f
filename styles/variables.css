@@ -14,4 +14,6 @@
   --label-color: #000;
   --shadow-color: #fff;
   --like-color: #fff;
+  --contour: #000;
+  --filling: #ff0000;
 }

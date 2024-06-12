@@ -40,11 +40,26 @@
   }
 }
 
-@keyframes button-pseudoelement {
-  from {
-    transform: translateX(-100%);
+@keyframes heart {
+  0% {
+    transform: scale(1);
   }
-  to {
-    transform: translateX(0);
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes sparks {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
