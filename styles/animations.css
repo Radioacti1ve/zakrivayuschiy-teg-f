@@ -15,10 +15,10 @@
 
 @keyframes disabled-button {
   from {
-    transform: translateX(-24px);
+    left: -24px;
   }
   to {
-    transform: translateX(-20px);
+    left: -20px;
   }
 }
 
