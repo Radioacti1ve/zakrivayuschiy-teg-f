@@ -169,7 +169,7 @@
   top: 25px;
   right: clamp(0.8125rem, 0.5484rem + 1.1268vw, 1.5625rem);
   font-size: 14px;
-  font-family: var(--accent-font), fantasy,sans-serif;
+  font-family: var(--accent-font), fantasy, sans-serif;
   color: var(--accent-color);
   text-shadow: 1px 1px 0 var(--shadow-color);
   mix-blend-mode: hard-light;
@@ -368,7 +368,7 @@
 }
 
 .button__text {
-  font-family: var(--accent-font), fantasy,sans-serif;
+  font-family: var(--accent-font), fantasy, sans-serif;
   font-size: var(--button-size);
   white-space: nowrap;
   position: relative;
@@ -418,7 +418,7 @@
 }
 
 .dialog__text {
-  font-family: var(--accent-font), fantasy,sans-serif;
+  font-family: var(--accent-font), fantasy, sans-serif;
   font-size: 14px;
   color: var(--accent-color);
 }
