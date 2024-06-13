@@ -418,6 +418,8 @@
 }
 
 .dialog__text {
+  text-transform: uppercase;
+  line-height: 21px;
   font-family: var(--accent-font), fantasy, sans-serif;
   font-size: 14px;
   color: var(--accent-color);
